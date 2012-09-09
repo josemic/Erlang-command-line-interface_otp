@@ -1,0 +1,10 @@
+
+-module(s).
+-export([s/0]).
+
+s() ->
+    application:start(sasl),
+    application:set_env(tcp_server, port, 1026),
+    application:set_env(tcp_server, conf_file, "ConfigurationUnix.txt"),
+    application:start(tcp_server),
+    appmon:start().
