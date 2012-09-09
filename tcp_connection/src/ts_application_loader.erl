@@ -1,11 +1,3 @@
-%%%-------------------------------------------------------------------
-%%% @author michael <michael@michael-desktop>
-%%% @copyright (C) 2012, michael
-%%% @doc
-%%%
-%%% @end
-%%% Created :  3 Sep 2012 by michael <michael@michael-desktop>
-%%%-------------------------------------------------------------------
 -module(ts_application_loader).
 
 -behaviour(gen_server).

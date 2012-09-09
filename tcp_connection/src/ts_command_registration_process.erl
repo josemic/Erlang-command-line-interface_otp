@@ -1,11 +1,3 @@
-%%%-------------------------------------------------------------------
-%%% @author michael <michael@michael-desktop>
-%%% @copyright (C) 2012, michael
-%%% @doc
-%%%
-%%% @end
-%%% Created : 22 Aug 2012 by michael <michael@michael-desktop>
-%%%-------------------------------------------------------------------
 -module(ts_command_registration_process).
 
 -behaviour(gen_server).

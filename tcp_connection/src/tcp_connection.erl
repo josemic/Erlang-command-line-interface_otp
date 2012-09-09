@@ -1,12 +1,5 @@
-%%%-------------------------------------------------------------------
-%%% @author michael <michael@michael-desktop>
-%%% @copyright (C) 2012, michael
-%%% @doc
-%%%
-%%% @end
-%%% Created : 18 Jul 2012 by michael <michael@michael-desktop>
-%%%-------------------------------------------------------------------
 -module(tcp_connection).
+
 -include("tcp_connection.hrl").
 -include("ts_command.hrl").
 -include("ts_telnet.hrl").
